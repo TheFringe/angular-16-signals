@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply mx-2 my-4 py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-400;
+}
+input {
+  @apply mx-2 my-4 py-2 px-4 border shadow-sm font-medium rounded-lg;
+}
+
+div {
+  @apply m-2;
+}
+
+.card {
+  @apply mx-1 my-2 border shadow-sm font-medium rounded-lg;
+  h1 {
+    @apply bg-gray-400 p-4 text-white rounded-t-lg;
+  }
+}
